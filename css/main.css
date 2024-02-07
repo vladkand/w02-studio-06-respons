@@ -501,7 +501,7 @@ body {
   }
 }
 
-.menu-button {
+.menu-btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -510,20 +510,20 @@ body {
   border: none;
   background-color: transparent;
 }
-.menu-button:hover {
+.menu-btn:hover {
   cursor: pointer;
 }
-.menu-button .icon-cross {
+.menu-btn .icon-cross {
   display: none;
 }
-.menu-button.is-open .icon-cross {
+.menu-btn.is-open .icon-cross {
   display: block;
 }
-.menu-button.is-open .icon-menu {
+.menu-btn.is-open .icon-menu {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .menu-button {
+  .menu-btn {
     display: none;
   }
 }
