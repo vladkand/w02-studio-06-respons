@@ -1,4 +1,6 @@
 .header {
+   position: relative;
+
    //     position: fixed;
 
    border-bottom: 2px solid #ececec;
@@ -59,4 +61,21 @@
    @media screen and (min-width: 768px) {
       display: none;
    }
+}
+
+.menu-container {
+   position: absolute;
+   display: none;
+   top: 100%;
+   left: 0;
+   width: 100%;
+
+   &.is-open {
+      display: block;
+   }
+
+   @media screen and (min-width: 768px) {
+      display: none;
+   }
+   background-color: beige;
 }

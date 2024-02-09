@@ -443,6 +443,7 @@ body {
 }
 
 .header {
+  position: relative;
   border-bottom: 2px solid #ececec;
 }
 
@@ -524,6 +525,23 @@ body {
 }
 @media screen and (min-width: 768px) {
   .menu-btn {
+    display: none;
+  }
+}
+
+.menu-container {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: beige;
+}
+.menu-container.is-open {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .menu-container {
     display: none;
   }
 }
