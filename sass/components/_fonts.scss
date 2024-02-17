@@ -1,7 +1,8 @@
 //
 .title {
    font-weight: 700;
-   color: #212121;
+   // color: var(--color-txt-second);
+   color: $color-txt-second;
 }
 
 .section-title {
