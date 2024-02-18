@@ -7,6 +7,11 @@
 
 .section-title {
    // ==> mobile
+   margin-bottom: 30px;
+
+   @media screen and (min-width: 768px) {
+      margin-bottom: 50px;
+   }
 
    text-align: center;
 
