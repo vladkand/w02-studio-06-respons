@@ -34,7 +34,7 @@
    letter-spacing: 0.28px;
    color: $color-txt-second;
 
-   transition: color 500ms $cubic-function;
+   transition: color 250ms $cubic-function;
 
    &.current {
       color: $color-accent;

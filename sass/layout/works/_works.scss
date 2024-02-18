@@ -19,6 +19,7 @@
 
 .works__list:hover .works__thumb {
    opacity: 1;
+   scale: 1;
    transform: rotateY(-360deg);
 }
 
@@ -37,8 +38,14 @@
 
    transform: rotateY(45deg);
    opacity: 0.3;
+   scale: 0.8;
 
    transition: all 500ms $cubic-function;
+
+   // &:hover {
+   //    opacity: 1;
+   //    transform: rotateY(-360deg);
+   // }
 }
 
 .works__txt {
