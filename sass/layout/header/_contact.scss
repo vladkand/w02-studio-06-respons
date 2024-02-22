@@ -1,14 +1,15 @@
 //
-.contaсt__list {
+.contact {
    // mobile ==>
-   display: none;
+   // display: none;
 
    // tablet ==>
+
    @media screen and (min-width: 768px) {
       display: flex;
+      margin-left: auto;
       flex-direction: column;
    }
-
    //  desctop ==>
    @media screen and (min-width: 1200px) {
       flex-direction: row;
