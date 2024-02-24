@@ -1,4 +1,17 @@
 //
+//  ! ===== ОФОРМЛЕНИЕ ТЕКСТА ====
+.textStyle {
+   font-family: var(--secondary-font);
+   font-weight: 500;
+   font-size: 42px;
+   line-height: 1.2;
+   letter-spacing: 0.05em;
+
+   text-transform: capitalize;
+   color: var(--text-primary);
+}
+// !===============================
+
 :root {
    --color-accent: #2196f3;
    --color-txt-main: #757575;

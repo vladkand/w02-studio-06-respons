@@ -1,15 +1,7 @@
 //
-.main-nav {
-   // mobile
-   // =========
-   // tablet ==>
-   // @media screen and (min-width: 768px) {
-   //    display: block;
-   // margin-left: 88px;
-   // }
+// .main-nav {
 
-   // margin-left: 93px;
-}
+// }
 
 .nav-list {
    @media screen and (min-width: 768px) {
@@ -32,6 +24,15 @@
 }
 
 .nav-list__link {
+   @media screen and (max-width: 767px) {
+      font-family: Roboto;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: normal;
+      letter-spacing: 0.28px;
+      color: $color-txt-second;
+   }
+
    @media screen and (min-width: 768px) {
       position: relative;
       display: block;
@@ -65,6 +66,7 @@
          background-color: $color-accent;
       }
    }
+
    &:focus,
    &:hover {
       color: $color-accent;
