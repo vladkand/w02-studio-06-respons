@@ -8,6 +8,11 @@
 
    background-color: $bg-hero-color;
 
+   // mobile
+   @media screen and (max-width: 319px) {
+      width: 280px;
+   }
+
    // ==== desctop ==>
    @media screen and (min-width: 1200px) {
       padding-top: 200px;
