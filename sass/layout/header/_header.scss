@@ -49,6 +49,8 @@
 }
 
 .menu-container {
+   background-color: beige;
+
    display: none;
 
    &.is-open {
@@ -71,12 +73,9 @@
 
    @media screen and (min-width: 768px) {
       display: flex;
-      margin-left: 88px;
-
       justify-content: space-between;
       align-items: center;
+      margin-left: 88px;
       flex-grow: 1;
    }
-
-   background-color: beige;
 }

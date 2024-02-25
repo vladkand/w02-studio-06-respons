@@ -280,8 +280,8 @@ body {
 }
 
 .menu-container {
-  display: none;
   background-color: beige;
+  display: none;
 }
 @media screen and (max-width: 767px) {
   .menu-container.is-open {
@@ -311,13 +311,13 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 88px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-left: 88px;
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
